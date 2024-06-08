@@ -1,0 +1,731 @@
+
+
+/* Nan CSS v26.15 */
+
+/* global */
+
+* {
+	font-family: consolas, monospace;
+}
+#content {
+	font-weight: normal;
+}
+.um {
+	filter: grayscale(100%);
+	opacity: 80;
+}
+#um4 {
+    mix-blend-mode: multiply;
+}
+#storyicon {
+	content: url("https://tgchan.org/kusaba/questarch/src/125506037227.gif");
+}
+::selection {
+	background-color: rgba(0,0,0,1);
+	color: #fff;
+}
+
+/* The Flaming Lounge */
+
+.p188-198 div#slide {
+	background-color: #482400;
+}
+.p188-198 header .mspfalogo {
+	background-color: #482400;
+	border-right-color: #361B00;
+	background-blend-mode: multiply;
+}
+.p188-198 footer .mspfalogo {
+	background-color: #482400;
+	border-right-color: #361B00;
+	background-blend-mode: multiply;
+}
+.p188-198 body {
+	background-color: #241200;
+	color: #ff8000;
+}
+.p188-198 div#container {
+	background-color: #361b00;
+}
+.p188-198 div#main {
+	background-color: #321900;
+}
+.p188-198 #info > span > .spoiler.open {
+	background-color: #482400;
+}
+.p188-198 .major {
+	color: #ff8000;
+	text-shadow: 0 2px #dd6e00;
+}
+.p188-198 a:link {
+	color: #ffc080;
+}
+.p188-198 a:visited {
+	color: #ffc000;
+}
+.p188-198 #storyicon {
+	mix-blend-mode: overlay;
+}
+.p188-198 .um {
+	mix-blend-mode: overlay;
+}
+
+/*The Dream*/
+
+.p261-270 div#slide,
+.p352-356 div#slide,
+.p572-582 div#slide,
+.p596-605 div#slide {
+	background-color: #000000;
+	color: #ffffff;
+}
+.p262-270 header .mspfalogo {
+	background-color: #80ffff;
+	border-right-color: #80ffff;
+	filter: invert(100%);
+	background-blend-mode: hard-light;
+}
+.p262-270 footer .mspfalogo {
+	background-color: #80ffff;
+	border-right-color: #80ffff;
+	filter: invert(100%);
+	background-blend-mode: hard-light;
+}
+.p262-270 body {
+	background-color: #1f1f1f;
+	color: #ffffff;
+}
+.p262-270 div#container {
+	background-color: #800000;
+}
+.p262-270 div#main {
+	background-color: #700000;
+}
+.p262-270 #info > span > .spoiler.open {
+	background-color: #000000;
+}
+.p262-270 .major {
+	color: #ffffff;
+	text-shadow: 0 2px #800000;
+}
+.p262-270 a:link {
+	color: #ffffff;
+}
+.p262-270 a:visited {
+	color: #ffeeee;
+}
+.p262-270 #storyicon {
+	background-color: #ffffff;
+	filter: invert(0%);
+}
+.p262-270 .um {
+	mix-blend-mode: multiply;
+}
+
+/*Terra Cotta Courtyard*/
+
+.p306-311 div#slide,
+.p430-436 div#slide,
+.p477-481 div#slide,
+.p503-512 div#slide {
+	background-color: #D6DAF0;
+	border: 1px solid #B7C5D9;
+}
+.p306-311 header .mspfalogo,
+.p430-436 header .mspfalogo,
+.p477-481 header .mspfalogo,
+.p503-512 header .mspfalogo {
+	background-color: #D6DAF0;
+	border-right-color: #D6DAF0;
+}
+.p306-311 footer .mspfalogo,
+.p430-436 footer .mspfalogo,
+.p477-481 footer .mspfalogo,
+.p503-512 footer .mspfalogo {
+	background-color: #D6DAF0;
+	border-right-color: #D6DAF0;
+}
+.p306-311 body,
+.p430-436 body,
+.p477-481 body,
+.p503-512 body {
+	background-color: #EEF2FF;
+	background-image: linear-gradient(to bottom, #D1D5EE 0px, #EEF2FF 200px);
+	background-repeat: no-repeat;
+	color: #000000;
+}
+.p306-311 div#container,
+.p430-436 div#container,
+.p477-481 div#container,
+.p503-512 div#container {
+	background-color: #EEF2FF;
+	background-image: linear-gradient(to bottom, #D1D5EE 0px, #EEF2FF 200px);
+	background-repeat: no-repeat;
+}
+.p306-311 div#main,
+.p430-436 div#main,
+.p477-481 div#main,
+.p503-512 div#main {
+	background-color: #EEF2FF;
+}
+.p306-311 #info > span > .spoiler.open,
+.p430-436 #info > span > .spoiler.open,
+.p477-481 #info > span > .spoiler.open,
+.p503-512 #info > span > .spoiler.open {
+	background-color: #D6DAF0;
+}
+.p306-311 .major,
+.p430-436 .major,
+.p477-481 .major,
+.p503-512 .major {
+	color: #e00000;
+	text-shadow: 0 2px #900000;
+}
+.p306-311 a:link,
+.p430-436 a:link,
+.p477-481 a:link,
+.p503-512 a:link {
+	color: #800000 !important;
+}
+.p306-311 a:visited,
+.p430-436 a:visited,
+.p477-481 a:visited,
+.p503-512 a:visited {
+	color: #400000 !important;
+}
+.p306-311 #storyicon,
+.p430-436 #storyicon,
+.p477-481 #storyicon,
+.p503-512 #storyicon {
+	background-color: #ffffff;
+}
+.p306-311 .um,
+.p430-436 .um,
+.p477-481 .um,
+.p503-512 .um {
+	mix-blend-mode: darken;
+}
+.p306-311 nav,
+.p430-436 nav,
+.p477-481 nav,
+.p503-512 nav {
+	background-color: #EEF2FF;
+	color: #000000 !important;
+}
+
+/*The Boiler Room*/
+
+.p362-384 header .mspfalogo,
+.p650-659 header .mspfalogo,
+.p725-836 header .mspfalogo,
+.p919-945 header .mspfalogo {
+	background-color: #000000;
+	border-right-color: #000000;
+}
+.p362-384 footer .mspfalogo,
+.p650-659 footer .mspfalogo,
+.p725-836 footer .mspfalogo,
+.p919-945 footer .mspfalogo {
+	background-color: #000000;
+	border-right-color: #000000;
+}
+.p362-384 body,
+.p650-659 body,
+.p725-836 body,
+.p919-945 body {
+	background-color: #000000;
+	color: #ffffff;
+}
+.p725-736 div#slide img:hover {
+	filter: brightness(250%) contrast(100%);
+}
+.p362-384 div#container,
+.p650-659 div#container,
+.p725-836 div#container,
+.p919-945 div#container {
+	background-color: #362018;
+}
+.p362-384 div#main,
+.p650-659 div#main,
+.p725-836 div#main,
+.p919-945 div#main {
+	background-color: #000000;
+}
+.p362-384 div#slide,
+.p650-659 div#slide,
+.p725-836 div#slide,
+.p919-945 div#slide {
+	background-color: #000000;
+}
+.p362-384 #info > span > .spoiler.open,
+.p650-659 #info > span > .spoiler.open,
+.p725-836 #info > span > .spoiler.open,
+.p919-945 #info > span > .spoiler.open {
+	background-color: #000000;
+}
+.p362-384 .major,
+.p650-659 .major,
+.p725-836 .major,
+.p919-945 .major {
+	color: #c0522d;
+	text-shadow: 0 2px #713723;
+}
+.p362-384 a:link,
+.p650-659 a:link,
+.p725-836 a:link,
+.p919-945 a:link {
+	color: #c0522d;
+}
+.p362-384 a:visited,
+.p650-659 a:visited,
+.p725-836 a:visited,
+.p919-945 a:visited {
+	color: #713723;
+}
+.p362-384 #storyicon,
+.p650-659 #storyicon,
+.p725-836 #storyicon,
+.p919-945 #storyicon {
+	background-color: #c0522d;
+	filter: invert(100%);
+	background-blend-mode: multiply;
+}
+.p362-384 .um,
+.p650-659 .um,
+.p725-836 .um,
+.p919-945 .um {
+	background-color: #362018;
+	mix-blend-mode: difference;
+}
+
+/*The Chapel*/
+
+.p401-428 div#slide,
+.p437-446 div#slide {
+	background-color: #676b7b;
+}
+.p401-428 header .mspfalogo,
+.p437-446 header .mspfalogo {
+	background-color: #676b7b;
+	border-right-color: #474443;
+	background-blend-mode: multiply;
+}
+.p401-428 footer .mspfalogo,
+.p437-446 footer .mspfalogo {
+	background-color: #676b7b;
+	border-right-color: #474443;
+	background-blend-mode: multiply;
+}
+.p401-428 body,
+.p437-446 footer .mspfalogo {
+	background-color: #515461;
+	color: #070606;
+}
+.p401-428 div#container,
+.p437-446 div#container {
+	background-color: #575453;
+}
+.p401-428 div#main,
+.p437-446 div#main {
+	background-color: #474443;
+}
+.p401-428 #info > span > .spoiler.open,
+.p437-446 #info > span > .spoiler.open {
+	background-color: #676b7b;
+}
+.p401-428 .major,
+.p437-446 .major {
+	color: #babcc5;
+	text-shadow: 0 2px #acaeb9;
+}
+.p401-428 a:link,
+.p437-446 a:link {
+	color: #babcc5;
+}
+.p401-428 a:visited,
+.p437-446 a:visited {
+	color: #9ea1ae;
+}
+.p401-428 #storyicon,
+.p437-446 #storyicon {
+	mix-blend-mode: overlay;
+}
+.p401-428 .um,
+.p437-446 .um {
+	mix-blend-mode: overlay;
+}
+
+/*The Padre's room*/
+
+.p447-473 div#slide {
+	background-color: #4b2d18;
+}
+.p447-473 header .mspfalogo {
+	background-color: #4b2d18;
+	border-right-color: #25160c;
+	background-blend-mode: multiply;
+}
+.p447-473 footer .mspfalogo {
+	background-color: #4b2d18;
+	border-right-color: #25160c;
+	background-blend-mode: multiply;
+}
+.p447-473 body {
+	background-color: #25160c;
+	color: #ab7550;
+}
+.p447-473 div#container {
+	background-color: #25160c;
+}
+.p447-473 div#main {
+	background-color: #321900;
+}
+.p447-473 #info > span > .spoiler.open {
+	background-color: #4b2d18;
+}
+.p447-473 .major {
+	color: #ab7550;
+	text-shadow: 0 2px #dd6e00;
+}
+.p447-473 a:link {
+	color: #ffc080;
+}
+.p447-473 a:visited {
+	color: #ffc000;
+}
+.p447-473 #storyicon {
+	mix-blend-mode: overlay;
+}
+.p447-473 .um {
+	mix-blend-mode: overlay;
+}
+
+/* The Lightbringer */
+
+.p526-535 div#slide {
+	background-color: #9c9fa8;
+	border: 1px solid #655e59;
+}
+.p526-535 header .mspfalogo {
+	background-color: #acafb8;
+	border-right-color: #acafb8;
+	background-blend-mode: multiply;
+}
+.p526-535 footer .mspfalogo {
+	background-color: #acafb8;
+	border-right-color: #acafb8;
+	background-blend-mode: multiply;
+}
+.p526-535 body {
+	background-color: #ACAFB8;
+	background-image: linear-gradient(to bottom, #655e59 0px, #ACAFB8 200px);
+	background-repeat: no-repeat;
+	color: #000000;
+	text-shadow: 1px 1px white;
+}
+.p526-535 div#container {
+	background-color: #ACAFB8;
+	background-image: linear-gradient(to bottom, #655e59 0px, #ACAFB8 200px);
+	background-repeat: no-repeat;
+}
+.p526-535 div#main {
+	background-color: #ACAFB8;
+}
+.p526-535 #info > span > .spoiler.open {
+	background-color: #acafb8;
+}
+.p526-535 .major {
+	color: #ffb016;
+	text-shadow: 0 2px #ff8f16;
+}
+.p526-535 a:link {
+	color: #ffb016 !important;
+	text-shadow: 1px 1px black;
+}
+.p526-535 a:visited {
+	color: #ff8f16 !important;
+	text-shadow: 1px 1px black;
+}
+.p526-535 #storyicon {
+	background-color: #ffffff;
+}
+.p526-535 .um {
+	mix-blend-mode: multiply;
+}
+.p526-535 nav {
+	background-color: #ACAFB8;
+	color: #ffffff !important;
+}
+
+/* Anasazi lounge */
+
+.p617-648 header .umcontainer,
+.p617-648 footer .umcontainer,
+.p617-648 div.heart,
+.p617-648 .cellicon,
+.p617-648 .smol,
+.p617-648 #bbtoolbar,
+.p617-648 #storyicon {
+	filter: grayscale(100%) invert(100%) contrast(50000%);
+	mix-blend-mode: normal !important;
+}
+.p617-648 #um4 {
+	filter: grayscale(100%) invert(100%) brightness(200%) contrast(50000%);
+	mix-blend-mode: normal !important;
+}
+.p617-648 .major {
+	filter: grayscale(100%) contrast(50000%);
+	background-color: #000 !important;
+}
+.p617-649 body,
+.p617-649 nav a,
+.p617-649 a,
+.p617-649 div#main,
+.p617-649 div#container,
+.p617-649 div#slide,
+.p617-649 #info > span > .spoiler.open,
+.p617-649 .major,
+.p617-649 #dialog,
+.p617-649 textarea {
+	color: #fff !important;
+	background-color: #000;
+}
+
+/* Room 114 */
+
+.p681-699 body {
+	background-color: #500000;
+}
+
+/* The Lit Courtyard */
+
+.p840-853 div#slide {
+	background-color: #ff6200;
+	border: 1px solid #ff9200;
+}
+.p840-853 header .mspfalogo {
+	background-color: #ff6200;
+	border-right-color: #ff6200;
+	background-blend-mode: multiply;
+}
+.p840-853 footer .mspfalogo {
+	background-color: #ff6200;
+	border-right-color: #ff6200;
+	background-blend-mode: multiply;
+}
+.p840-853 body {
+	background-color: #ff6200;
+	background-image: linear-gradient(to bottom, #fe0000 0px, #ff6200 200px);
+	background-repeat: no-repeat;
+	color: #540000;
+	text-shadow: 0 1px #b00000;
+}
+.p840-853 div#container {
+	background-color: #ff6200;
+	background-image: linear-gradient(to bottom, #fe0000 0px, #ff6200 200px);
+	background-repeat: no-repeat;
+}
+.p840-853 div#main {
+	background-color: #ff6200;
+}
+.p840-853 #info > span > .spoiler.open {
+	background-color: #ff6200;
+}
+.p840-853 .major {
+	color: #fe0000;
+	text-shadow: 0 2px #bf0000;
+}
+.p840-853 a:link {
+	color: #fe0000 !important;
+}
+.p840-853 a:visited {
+	color: #bf0000 !important;
+}
+.p840-853 #storyicon {
+	background-color: #ffffff;
+	mix-blend-mode: multiply;
+}
+.p840-853 .um {
+	mix-blend-mode: multiply;
+}
+.p840-853 nav {
+	background-color: #ff6200;
+	color: #540000 !important;
+}
+
+/* Dead Man's Memories */
+
+.p860-864 div#slide,
+.p860-864 .spoiler {
+	background-color: #3d3d3d !important;
+	border: 1px solid #ff3c00;
+}
+.p860-864 div#main {
+	background-color: #ff3c00;
+}
+.p860-864 div#container {
+	background-color: #FF9000;
+}
+.p860-864 body {
+	background-color: #3d3d3d;
+	color: #ffffff !important;
+}
+.p860-864 a:link {
+	color: #ff3c00;
+}
+.p860-864 a:visited {
+	color: #ff9000;
+}
+
+/* Burning Hotel */
+
+.p871-884 div#slide {
+	background-color: #cc3800;
+}
+.p871-884 header .mspfalogo {
+	background-color: #b33000;
+	border-right-color: #b33000;
+	background-blend-mode: multiply;
+}
+.p871-884 footer .mspfalogo {
+	background-color: #b33000;
+	border-right-color: #b33000;
+	background-blend-mode: multiply;
+}
+.p871-884 body {
+	background-color: #992900;
+	color: #000000;
+	text-shadow: 0 1px #b00000;
+}
+.p871-884 div#container {
+	background-color: #b33000;
+}
+.p871-884 div#main {
+	background-color: #b33000;
+}
+.p871-884 #info > span > .spoiler.open {
+	background-color: #cc3800;
+}
+.p871-884 .major {
+	color: #000000;
+	text-shadow: 0 2px #dd6e00;
+}
+.p871-884 a:link {
+	color: #ffaa00;
+}
+.p871-884 a:visited {
+	color: #ee9900;
+}
+.p871-884 #storyicon {
+	mix-blend-mode: overlay;
+}
+.p871-884 .um {
+	mix-blend-mode: multiply;
+}
+
+/* The red chapel */
+
+.p885-899 div#slide,
+.p911-918 div#slide {
+	background-color: #370000;
+	text-shadow: 1px 1px #808080;
+}
+.p885-899 header .mspfalogo,
+.p911-918 header .mspfalogo {
+	background-color: #370000;
+	border-right-color: #474443;
+	background-blend-mode: multiply;
+}
+.p885-899 footer .mspfalogo,
+.p911-918 footer .mspfalogo {
+	background-color: #370000;
+	border-right-color: #474443;
+	background-blend-mode: multiply;
+}
+.p885-899 body,
+.p911-918 body {
+	background-color: #270000;
+	color: #fefcfa;
+}
+.p885-899 div#container,
+.p911-918 div#container {
+	background-color: #5a6266;
+}
+.p885-899 div#main,
+.p911-918 div#main {
+	background-color: #565d61;
+}
+.p885-899 #info > span > .spoiler.open,
+.p911-918 #info > span > .spoiler.open {
+	background-color: #370000;
+}
+.p885-899 .major,
+.p911-918 .major {
+	color: #babcc5;
+	text-shadow: 0 2px #acaeb9;
+}
+.p885-899 a:link,
+.p911-918 a:link {
+	color: #babcc5;
+}
+.p885-899 a:visited,
+.p911-918 a:visited {
+	color: #9ea1ae;
+}
+.p885-899 #storyicon,
+.p911-918 #storyicon {
+	mix-blend-mode: overlay;
+}
+.p885-899 .um,
+.p911-918 .um {
+	mix-blend-mode: overlay;
+}
+
+/* Deafening silence */
+
+.p900-910 header .mspfalogo {
+	background-color: #ffffff;
+	border-right-color: #ffffff;
+	filter: invert(100%);
+	background-blend-mode: pin-light;
+}
+.p900-910 footer .mspfalogo {
+	background-color: #ffffff;
+	border-right-color: #ffffff;
+	filter: invert(100%);
+	background-blend-mode: pin-light;
+}
+.p900-910 .um,
+.p900-910 .heart {
+	background-color: #ffffff;
+	border-right-color: #ffffff;
+	filter: invert(100%) grayscale(100%) opacity(40%);
+	mix-blend-mode: normal !important; /* reversing the global multiply blend mode */
+}
+.p900-910 #um4 {
+	background-color: #ffffff;
+	border-right-color: #ffffff;
+	filter: invert(100%) grayscale(100%) opacity(40%) brightness(160%) contrast(200%);
+	mix-blend-mode: normal !important; /* reversing the global multiply blend mode */
+}
+.p900-910 body,
+.p900-910 div#main,
+.p900-910 div#container,
+.p900-910 div#slide,
+.p900-910 .spoiler.open,
+.p900-910 nav,
+.p900-910 a,
+.p900-910 major {
+	background-color: #000 !important;
+	color: #555 !important;
+}
+
+.p900-910 input,
+.p900-910 button {
+	background-color: #555 !important;
+	border-color: #333 #222 #333 #222 !important;
+	color: #000;
+}
+
+.p900-910 #storyicon {
+	filter: opacity(0.33);
