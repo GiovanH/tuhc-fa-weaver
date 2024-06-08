@@ -1,0 +1,8 @@
+TUHC_DIR="L:/Archive/Homestuck/TUHC/unofficial-homestuck-collection/"
+
+export STORY_NAME="Nan Quest"
+export STORY_ID=23588
+
+export MOD_SUMMARY="Nan Quest MSPFA"
+export MOD_AUTHOR="TG Weaver"
+export MOD_VERSION=0.1
