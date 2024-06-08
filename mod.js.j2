@@ -1,4 +1,4 @@
-{% set STORY_ID = environ('STORY_NAME') + "_online" -%}
+{% set STORY_ID = environ('STORY_NAME') + "_online" if "online" in environ('MOD_TITLE') else environ('STORY_NAME') -%}
 
 module.exports = {
   title: "{{ environ('MOD_TITLE') }}",

@@ -1,7 +1,9 @@
 module.exports = {
   title: "Ruby Quest (online)",
-  summary: "MSPFA",
-  
+  author: "TG Weaver",
+  summary: "Ruby Quest MSPFA",
+  version: 0.1,
+
   edit: true,
 
   trees: {
@@ -19,3 +21,4 @@ module.exports = {
     }
   }
 }
+

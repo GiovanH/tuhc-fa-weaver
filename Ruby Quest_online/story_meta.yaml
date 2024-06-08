@@ -29,10 +29,9 @@
   "v": 1
   "h": 0
   "w": ""
-  "r": "<style>.cellicon[title=\"DiveQuest\"],.cellicon[title=\"Talktopia\"]{display:\
-    \ none;}body{background-color:#f248a6;}#main{background-color:#ff83c7}#flashytitle{background-image:url(https://file.garden/W6aq_TOvo3hjsaJz/pinkflashytitle.png);}#usericon{filter:drop-shadow(0px\
-    \ 0px 1px #f248a6);border-radius:100%;}</style>Cute as a button, but looks are\
-    \ deceiving"
+  "r": "<style>.cellicon[title=\"DiveQuest\"],.cellicon[title=\"Talktopia\"]{display:
+    none;}body{background-color:#f248a6;}#main{background-color:#ff83c7}#flashytitle{background-image:url(https://file.garden/W6aq_TOvo3hjsaJz/pinkflashytitle.png);}#usericon{filter:drop-shadow(0px
+    0px 1px #f248a6);border-radius:100%;}</style>Cute as a button, but looks are deceiving"
   "o": "https://linkh.at/newstars"
   "g":
     "43": 1441
@@ -80,3 +79,176 @@
     "a3": false
   "u": 1710780880038
   "z": "32729"
+"whole_css": |-
+  * {
+      font-family: consolas;
+    }
+  #content {
+      font-weight: normal;
+    }
+
+  div#slide {
+  	background-color: #D6DAF0;
+  	border: 1px solid #B7C5D9;
+  }
+  header .mspfalogo {
+  	background-color: #D6DAF0;
+  	border-right-color: #D6DAF0;
+  }
+  footer .mspfalogo {
+  	background-color: #D6DAF0;
+  	border-right-color: #D6DAF0;
+  }
+  body {
+  	background-color: #EEF2FF;
+  	background-image: linear-gradient(to bottom, #D1D5EE 0px, #EEF2FF 200px);
+  	background-repeat: no-repeat;
+  	color: #000000;
+  }
+  div#container {
+  	background-color: #EEF2FF;
+  	background-image: linear-gradient(to bottom, #D1D5EE 0px, #EEF2FF 200px);
+  	background-repeat: no-repeat;
+  }
+  div#main {
+  	background-color: #EEF2FF;
+  }
+  #info > span > .spoiler.open {
+  	background-color: #D6DAF0;
+  }
+  .major {
+  	color: #e00000;
+  	text-shadow: 0 2px #900000;
+  }
+  a:link {
+  	color: #dd0000 !important;
+  }
+  a:visited {
+  	color: #aa0000 !important;
+  }
+  #storyicon {
+  	background-color: #ffffff;
+  }
+  .um {
+  	mix-blend-mode: darken;
+  }
+  nav {
+  	background-color: #EEF2FF;
+  	color: #000000 !important;
+  }
+  /*
+  .p246-249 #slide, .p807-809 #slide{
+      background-color: #000000;
+  }
+  .p246-249 header .mspfalogo, .p807-809 header .mspfalogo  {
+      background-color: #000000;
+  }
+  .p246-249 footer .mspfalogo, .p807-809 footer .mspfalogo {
+      background-color: #000000;
+  }
+  .p246-249 body, .p807-809 body {
+      background-color: #000000;
+      color: #ffffff;
+  }
+  .p246-249 div#container, .p807-809 div#container {
+      background-color: #222222;
+  }
+  .p246-249 div#main, .p807-809 div#main {
+      background-color: #111111;
+  }
+  .p246-249 div.heart, .p807-809 div.heart {
+      background-color: #000000;
+  }
+  .p246-249 #info > span > .spoiler.open, .p807-809 #info > span > .spoiler.open  {
+      background-color: #000000;
+  }
+  .p246-249 .major, .p807-809 .major {
+      color: #ffffff;
+      text-shadow: 0 2px #111111;
+  }
+
+  .p246-249 a:link, .p807-809 a:link {
+      color: #aaaaff;
+  }
+
+  .p246-249 a:visited, .p807-809 a:visited {
+      color: #ffaaff;
+  }
+
+  .p980-988 #slide{
+      background-color: #800000;
+  }
+  .p980-988 header .mspfalogo{
+      background-color: #800000;
+      border-right-color: #910000;
+      background-blend-mode: multiply;
+  }
+  .p980-988 footer .mspfalogo{
+      background-color: #800000;
+      border-right-color: #910000;
+      background-blend-mode: multiply;
+  }
+  .p980-988 body{
+      background-color: #800000;
+      color: #ff0000;
+  }
+  .p980-988 div#container{
+      background-color: #a20000;
+  }
+  .p980-988 div#main{
+      background-color: #910000;
+  }
+  .p980-988 nav{
+      background-color: #800000;
+  }
+  .p980-988 div.heart{
+      background-color: #800000;
+      background-blend-mode: luminosity;
+  }
+  .p980-988 #info > span > .spoiler.open{
+      background-color: #800000;
+  }
+  .p980-988 .major{
+      color: #ff0000;
+      text-shadow: 0 2px #dd0000;
+  }
+  .p980-988 a:link{
+      color: #ff2222;
+  }
+  .p980-988 a:visited{
+      color: #ff0000;
+  }
+  .p980-988 nav a[href="/stories/"] {
+      color: #ffcccc !important;
+  }
+  .p980-988 nav a[href="/random/"] {
+      color: #ffcccc !important;
+  }
+  .p980-988 nav a[href="/stats/"] {
+      color: #ffcccc !important;
+  }
+  .p980-988 nav a[href="/log/?s=17145"] {
+      color: #ffbbbb !important;
+  }
+  .p980-988 nav a[href="/search/?s=17145"] {
+      color: #ffbbbb !important;
+  }
+  .p980-988 nav a[href="/my/"] {
+      color: #ffaaaa !important;
+  }
+  .p980-988 nav a[href="https://discord.gg/suEzKkH"] {
+      color: #ffaaaa !important;
+  }
+  .p980-988 nav a[href="mailto:support@mspfa.com"] {
+      color: #ff9889 !important;
+  }
+  .p980-988 nav a[href="/donate/"] {
+      color: #ff9889 !important;
+  }
+  .p980-988 #storyicon {
+      mix-blend-mode: overlay;
+  }
+  .p980-988 .um {
+      mix-blend-mode: multiply;
+  }
+  */
