@@ -1,4 +1,4 @@
--include env
+-include env_ruby
 
 .SECONDEXPANSION:
 .SUFFIXES:
@@ -6,7 +6,7 @@
 PYTHON=py -3
 
 .PHONY: default
-default: ruby-online ruby-full
+default: ruby-online ruby-full nan-online nan-full
 
 define postprocess
 $(PYTHON) -c 'from rubyquest import *; encoolen("./$(1)/")'
@@ -25,3 +25,19 @@ ruby-online:
 	# $(call postprocess,$(STORY_NAME)_online)
 	env MOD_TITLE="$(STORY_NAME) (online)" \
 	  j2 mod.js.j2 --print > "$(STORY_NAME)_online/mod.js"
+
+# Extra adventure
+
+.PHONY: nan-full
+nan-full:
+	$(PYTHON) $(TUHC_DIR)/tools/mspfa/mspfa.py 23588
+	# $(call postprocess,$(STORY_NAME))
+	. ./env_nan && env MOD_TITLE="Nan Quest" \
+	  j2 mod.js.j2 --print > "Nan Quest/mod.js"
+
+.PHONY: nan-online
+nan-online:
+	$(PYTHON) $(TUHC_DIR)/tools/mspfa/mspfa.py 23588 --online
+	# $(call postprocess,Nan Quest_online)
+	. ./env_nan && env MOD_TITLE="Nan Quest (online)" \
+	  j2 mod.js.j2 --print > "Nan Quest_online/mod.js"

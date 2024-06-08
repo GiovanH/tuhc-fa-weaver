@@ -1,6 +1,8 @@
 module.exports = {
   title: "Nan Quest (online)",
-  summary: "MSPFA",
+  author: "TG Weaver",
+  summary: "Nan Quest MSPFA",
+  version: 0.1,
 
   edit: true,
 
@@ -19,3 +21,4 @@ module.exports = {
     }
   }
 }
+
