@@ -1,0 +1,25 @@
+{% set STORY_ID = environ('STORY_NAME') + "_online" -%}
+
+module.exports = {
+  title: "{{ environ('MOD_TITLE') }}",
+  author: "{{ environ('MOD_AUTHOR') }}",
+  summary: "{{ environ('MOD_SUMMARY') }}",
+  version: {{ environ('MOD_VERSION') }},
+
+  edit: true,
+
+  trees: {
+    './': 'assets://mspfa/{{ STORY_ID }}/',
+  },
+  async asyncComputed(api) {
+    const story = await api.readYamlAsync("./story.yaml")
+    return {
+      styles: [
+        {body: await api.readFileAsync("./adventure.scss")}
+      ],
+      edit(archive){
+        archive.mspfa['{{ STORY_ID }}'] = story
+      }
+    }
+  }
+}

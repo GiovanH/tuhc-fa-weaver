@@ -1,0 +1,10 @@
+TUHC_DIR="L:/Archive/Homestuck/TUHC/unofficial-homestuck-collection/"
+
+# get 23588 # Nan quest
+
+export STORY_NAME=Ruby Quest
+export STORY_ID=17145
+
+export MOD_SUMMARY=Ruby Quest MSPFA
+export MOD_AUTHOR=TG Weaver
+export MOD_VERSION=0.1
